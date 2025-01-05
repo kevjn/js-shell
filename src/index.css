@@ -1,0 +1,47 @@
+.cli {
+  resize: none;
+  background: none;
+  font-family: "Menlo", consolas, monospace;
+  border: 0;
+  padding: 0.6rem 0;
+  width: 100%;
+  outline: none;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.Input {
+  width: 100%;
+  z-index: 10;
+  position: relative;
+}
+
+.Input::before {
+  content: ">";
+  margin-right: 0.6rem;
+  color: blue;
+}
+
+.Line {
+  flex-wrap: wrap;
+  line-height: 1.4rem;
+  border-bottom: 1px solid #eee;
+}
+
+.Line .input:before {
+  content: ">";
+  margin-right: 0.6rem;
+}
+
+.prompt {
+  width: 100%;
+  padding: 0.6rem 0;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: "Menlo", consolas, monospace;
+}

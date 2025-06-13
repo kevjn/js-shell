@@ -1,0 +1,9 @@
+name = "js-shell"
+compatibility_date = "2025-03-11"
+
+[build]
+command = "npm run build"
+
+[assets]
+directory = "./dist/"
+
